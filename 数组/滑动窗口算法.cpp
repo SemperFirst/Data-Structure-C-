@@ -1,10 +1,8 @@
-给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的 连续 子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
+//给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的 连续 子数组，并返回其长度。如果不存在符合条件的子数组，返回 0。
 
-示例：
+//输入：s = 7, nums = [2,3,1,2,4,3] 输出：2 解释：子数组 [4,3] 是该条件下的长度最小的子数组。
 
-输入：s = 7, nums = [2,3,1,2,4,3] 输出：2 解释：子数组 [4,3] 是该条件下的长度最小的子数组。
-
-法一：暴力法
+//法一：暴力法
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -26,8 +24,8 @@ public:
         return result == INT32_MAX ? 0 : result;
     }
 };
-法二：滑动窗口法
-![image](https://user-images.githubusercontent.com/56592386/134514863-efe1d470-0610-4f67-b8cd-14de9abce03c.png)
+//法二：滑动窗口法
+//![image](https://user-images.githubusercontent.com/56592386/134514863-efe1d470-0610-4f67-b8cd-14de9abce03c.png)
 
 class Solution {
 public:
