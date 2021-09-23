@@ -25,7 +25,7 @@ public:
     }
 };
 //法二：滑动窗口法
-//![image](https://user-images.githubusercontent.com/56592386/134514863-efe1d470-0610-4f67-b8cd-14de9abce03c.png)
+
 
 class Solution {
 public:
